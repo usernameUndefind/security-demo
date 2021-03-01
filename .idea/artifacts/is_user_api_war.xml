@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="is-user-api:war">
+    <output-path>$PROJECT_DIR$/is-user-api/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>is-user-api</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="is-user-api-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="is-user-api:war exploded" />
+    </root>
+  </artifact>
+</component>
