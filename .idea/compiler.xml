@@ -7,13 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="is-price-api" />
-        <module name="is-user-api" />
         <module name="is-order-api" />
+        <module name="is-server-auth" />
+        <module name="is-user-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="is-order-api" target="1.7" />
       <module name="is-price-api" target="1.7" />
+      <module name="is-server-auth" target="1.7" />
       <module name="is-user-api" target="8" />
     </bytecodeTargetLevel>
   </component>
