@@ -13,10 +13,10 @@ import org.springframework.stereotype.Component;
  * userDetail查询根据username查询数据库
  */
 @Component
+@AllArgsConstructor
 public class UserDetailsServiceImpl implements UserDetailsService {
 
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+    private final PasswordEncoder passwordEncoder;
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
