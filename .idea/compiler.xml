@@ -9,6 +9,7 @@
         <module name="is-price-api" />
         <module name="is-order-api" />
         <module name="is-server-auth" />
+        <module name="is-server-gateway" />
         <module name="is-user-api" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="is-order-api" target="1.7" />
       <module name="is-price-api" target="1.7" />
       <module name="is-server-auth" target="1.7" />
+      <module name="is-server-gateway" target="8" />
       <module name="is-user-api" target="8" />
     </bytecodeTargetLevel>
   </component>
