@@ -51,6 +51,13 @@
       <version>8.0.21</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.marcosbarbero.cloud</groupId>
+      <artifactId>spring-cloud-zuul-ratelimit</artifactId>
+      <version>2.2.4.RELEASE</version>
+    </dependency>
+
+
   </dependencies>
 
 

@@ -57,6 +57,7 @@ public class AuthorizationFilter extends ZuulFilter {
                     auditLogService.updateAuditLogStatus((Long) request.getAttribute("auditLogId"), 403);
                     handleError(403, requestContext);
                 }
+                requestContext.addZuulRequestHeader("username", tokenInfo.getUser_name());
             } else {
                 log.info("audit log update fail 401");
                 auditLogService.updateAuditLogStatus((Long) request.getAttribute("auditLogId"), 401);
@@ -68,8 +69,8 @@ public class AuthorizationFilter extends ZuulFilter {
     }
 
     private boolean hasPermission(TokenInfo tokenInfo, HttpServletRequest request) {
-
-        return RandomUtils.nextInt() % 2 == 0;
+ //        return RandomUtils.nextInt() % 2 == 0;
+        return true;
     }
 
 
