@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/is-price-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/is-server-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/is-server-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/is-server-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/is-server-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/is-user-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/is-user-api/src/main/resources" charset="UTF-8" />
   </component>
