@@ -10,8 +10,8 @@
         <option value="$PROJECT_DIR$/is-server-auth/pom.xml" />
         <option value="$PROJECT_DIR$/is-server-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/is-user-api/pom.xml" />
-        <option value="$PROJECT_DIR$/is-admin/pom.xml" />
         <option value="$PROJECT_DIR$/is-price-api/pom.xml" />
+        <option value="$PROJECT_DIR$/is-admin2/pom.xml" />
       </list>
     </option>
   </component>

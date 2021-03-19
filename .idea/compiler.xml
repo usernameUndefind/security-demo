@@ -6,21 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="is-price-api" />
         <module name="is-order-api" />
         <module name="is-server-auth" />
         <module name="is-server-gateway" />
-        <module name="is-admin" />
         <module name="is-user-api" />
+        <module name="is-price-api" />
+        <module name="is-admin2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="is-admin" target="1.7" />
+      <module name="is-admin2" target="1.8" />
       <module name="is-order-api" target="1.7" />
       <module name="is-price-api" target="1.7" />
       <module name="is-server-auth" target="1.7" />
       <module name="is-server-gateway" target="8" />
       <module name="is-user-api" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="is-admin2" options="-parameters" />
+    </option>
   </component>
 </project>

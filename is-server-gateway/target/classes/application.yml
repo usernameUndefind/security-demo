@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/liu?characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    show-sql: true
+
+zuul:
+  routes:
+    token:
+      url: http://localhost:9090
+    order:
+      url: http://localhost:9080
+  sensitive-headers:
+  ratelimit:
+    enabled: true
+    repository: JPA
+    default-policy-list:
+      - limit: 2 # 限制多少次
+        quota: 1 # 请求加在一起的时间是多少
+        refresh-interval: 3 # 3秒钟可以过多少个请求
+        type:
+          - url
+          - httpmethod
+
+
+server:
+  port: 9070
+
+
+

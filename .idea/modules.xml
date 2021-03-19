@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/is-admin/is-admin.iml" filepath="$PROJECT_DIR$/is-admin/is-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/is-admin2/is-admin2.iml" filepath="$PROJECT_DIR$/is-admin2/is-admin2.iml" />
       <module fileurl="file://$PROJECT_DIR$/is-order-api/is-order-api.iml" filepath="$PROJECT_DIR$/is-order-api/is-order-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/is-price-api/is-price-api.iml" filepath="$PROJECT_DIR$/is-price-api/is-price-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/is-server-auth/is-server-auth.iml" filepath="$PROJECT_DIR$/is-server-auth/is-server-auth.iml" />
